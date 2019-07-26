@@ -1,4 +1,6 @@
+#ある文字列の頭３つ分の文字をｎ回繰り返す
 def front(str, n):
+#次の行のfront_len =    で繰り返す文字の長さを決める。 
     front_len = 3
     if front_len > len(str):
         front_len = len(str)
